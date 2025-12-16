@@ -90,7 +90,10 @@ class RailwayService
                         foreach ($car['tariffs'] as $tariff) {
                             if ($tariff['tariff'] <= $this->maxCost) {
                                 $isExists = true;
-                                $text .= $car['freeSeats'] . " ta joy | " . $train['type']  . ' - ' . $train['number'] . ' - ' . $train['departureDate'] . "\n";
+                                $text .= $car['freeSeats'] . " = " .
+                                    $tariff['tariff'] . " | " .
+                                    $train['type']  . '-' . $train['number'] . ' - ' .
+                                    $train['departureDate'] . "\n";
                             }
                         }
                     }
