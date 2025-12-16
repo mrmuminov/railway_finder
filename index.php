@@ -7,7 +7,7 @@ $interval = (int)getenv("APP_INTERVAL"); // 30, in second
 $date = getenv("APP_DATE"); // YYYY-MM-DD
 $depStationCode = getenv("APP_FROM"); // station id
 $arvStationCode = getenv("APP_TO"); // station id
-$maxCost = (float)getenv("APP_MAX_COST"); // 250000 in sum
+$maxCost = (int)getenv("APP_MAX_COST"); // 250000 in sum
 $botToken = getenv("APP_BOT_TOKEN"); // telegram bot token
 $chatId = getenv("APP_CHAT_ID"); // telegram chat id
 

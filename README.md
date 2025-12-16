@@ -1,3 +1,14 @@
+## Environment Variables
+- `APP_INTERVAL`: (int) The interval in seconds for checking train availability (e.g., `30`).
+- `APP_DATE`: (string) The desired date for travel in `YYYY-MM-DD` format.
+- `APP_FROM`: (string) The departure station ID.
+- `APP_TO`: (string) The arrival station ID.
+- `APP_MAX_COST`: (int) The maximum acceptable cost for a ticket (e.g., `250000`).
+- `APP_BOT_TOKEN`: (string) Your Telegram bot token.
+- `APP_CHAT_ID`: (string) Your Telegram chat ID where notifications will be sent.
+
+
+
 | Station           | Code      |
 |-------------------|-----------|
 | Toshkent          | `2900000` |
